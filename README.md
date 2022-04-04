@@ -1,5 +1,5 @@
 # emb22109-systemc
-Projeto de um processador da arquitetura [Neander](https://www.inf.ufrgs.br/arq/wiki/doku.php?id=neander) em [SystemC](https://www.accellera.org/downloads/standards/systemc). A sua especificação é fornecida pela [máquina de estados desenvolvida em Yakindu Statecharts Tools](yakindu/neander_uc.ysc) e pelo arquivo [emb22109-proj\_systemc.pdf](emb22109-proj_systemc.pdf].
+Projeto de um processador da arquitetura [Neander](https://www.inf.ufrgs.br/arq/wiki/doku.php?id=neander) em [SystemC](https://www.accellera.org/downloads/standards/systemc). A sua especificação é fornecida pela [máquina de estados desenvolvida em Yakindu Statecharts Tools](yakindu/neander_uc.ysc) e pelo arquivo [emb22109-proj\_systemc.pdf](emb22109-proj_systemc.pdf).
 
 São executadas todas as instruções disponíveis (apresentadas abaixo) ao executar o programa compilado, e a sua simulação foi conferida com o auxílio do simulador
 [wneander](https://www.inf.ufrgs.br/arq/wiki/lib/exe/fetch.php?media=wneander.zip). Ao final elas podem ser comparadas
