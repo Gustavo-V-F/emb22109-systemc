@@ -1,0 +1,94 @@
+$date
+     Dec 13, 2021       19:32:52
+$end
+
+$version
+ SystemC 2.3.3-Accellera --- Oct 17 2021 18:22:59
+$end
+
+$timescale
+     1 ps
+$end
+
+$scope module SystemC $end
+$var wire    3  aaaaa  operation [2:0]  $end
+$var wire    8  aaaab  register_output [7:0]  $end
+$var wire    8  aaaac  memory_data_output [7:0]  $end
+$var wire    8  aaaad  register_input [7:0]  $end
+$var wire    1  aaaae  flag_negative       $end
+$var wire    1  aaaaf  flag_zero       $end
+$upscope $end
+$enddefinitions  $end
+
+$comment
+All initial values are dumped below at time 0 sec = 0 timescale units.
+$end
+
+$dumpvars
+b1 aaaaa
+b1 aaaab
+b0 aaaac
+b1 aaaad
+0aaaae
+0aaaaf
+$end
+
+#4000
+b0 aaaaa
+
+#6000
+b1 aaaaa
+b1111111 aaaab
+b10000001 aaaac
+b0 aaaad
+1aaaaf
+
+#10000
+b0 aaaaa
+
+#12000
+b1 aaaaa
+b10000000 aaaac
+b11111111 aaaad
+1aaaae
+0aaaaf
+
+#16000
+b0 aaaaa
+
+#18000
+b1 aaaaa
+b1 aaaab
+b0 aaaac
+b1 aaaad
+0aaaae
+
+#22000
+b10 aaaaa
+b1111111 aaaab
+b10 aaaac
+b10 aaaad
+
+#26000
+b11 aaaaa
+b0 aaaac
+b1111111 aaaad
+
+#30000
+b100 aaaaa
+b0 aaaab
+b11111111 aaaad
+1aaaae
+
+#34000
+b101 aaaaa
+b101010 aaaac
+b101010 aaaad
+0aaaae
+
+#38000
+b0 aaaaa
+b110111 aaaab
+b0 aaaac
+
+#46000
